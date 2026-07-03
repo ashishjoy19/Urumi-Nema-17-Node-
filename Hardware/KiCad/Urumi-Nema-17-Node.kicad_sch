@@ -5497,142 +5497,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "fab:PWR_12V"
-			(power global)
-			(pin_names
-				(offset 0)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(in_pos_files yes)
-			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "#PWR"
-				(at 0 -3.81 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "PWR_12V"
-				(at 0 3.556 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Description" "Power symbol creates a global label with name \"+12V\""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_keywords" "power-flag"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "PWR_12V_0_1"
-				(polyline
-					(pts
-						(xy -0.762 1.27) (xy 0 2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 2.54) (xy 0.762 1.27)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 0) (xy 0 2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "PWR_12V_1_1"
-				(pin power_in line
-					(at 0 0 90)
-					(length 0)
-					(hide yes)
-					(name "PWR_12V"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "fab:PWR_24V"
 			(power global)
 			(pin_names
@@ -5888,121 +5752,6 @@
 					(length 0)
 					(hide yes)
 					(name "PWR_5V"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
-		(symbol "fab:PWR_FLAG"
-			(power global)
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(offset 0)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(in_pos_files yes)
-			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "#FLG"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "PWR_FLAG"
-				(at 0 3.81 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Datasheet" "~"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Description" "Special symbol for telling ERC where power comes from"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_keywords" "power-flag"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "PWR_FLAG_0_1"
-				(polyline
-					(pts
-						(xy 0 0) (xy 0 1.27) (xy -1.016 1.905) (xy 0 2.54) (xy 1.016 1.905) (xy 0 1.27)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "PWR_FLAG_1_0"
-				(pin power_out line
-					(at 0 0 90)
-					(length 0)
-					(name "PWR_FLAG"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -7248,6 +6997,12 @@
 		(uuid "30fc741b-e581-4ea4-ada9-ef4a76db594c")
 	)
 	(junction
+		(at 148.59 205.74)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "388a0ebd-cc33-4af1-b67a-b3b9b331716a")
+	)
+	(junction
 		(at 358.14 41.91)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -7272,22 +7027,10 @@
 		(uuid "4c36bc26-c05a-4e42-a259-af67b1a76e09")
 	)
 	(junction
-		(at 340.36 36.83)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "4d673d1d-1cce-41a3-a71a-7709b1a5ec3f")
-	)
-	(junction
 		(at 345.44 158.75)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "515fb8a7-fb89-4071-8c4a-27123f993b93")
-	)
-	(junction
-		(at 140.97 135.89)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "548cd505-12e6-4972-ba1e-1526415310a1")
 	)
 	(junction
 		(at 107.95 62.23)
@@ -7344,12 +7087,6 @@
 		(uuid "b411003a-58cc-49a2-8186-2d69d41e2b85")
 	)
 	(junction
-		(at 334.01 36.83)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "bf324b44-032c-409a-8c82-df8c2f8cdc7a")
-	)
-	(junction
 		(at 350.52 189.23)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -7390,6 +7127,16 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "e7653db5-6d70-4798-a388-5a3661a19181")
+	)
+	(junction
+		(at 344.17 34.29)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "f1a4650f-b946-45f7-8b90-a05ee2685ab6")
+	)
+	(no_connect
+		(at 160.02 77.47)
+		(uuid "14327e16-d5e9-40b8-b844-d57f9f16360d")
 	)
 	(no_connect
 		(at 160.02 102.87)
@@ -7717,16 +7464,6 @@
 	)
 	(wire
 		(pts
-			(xy 334.01 36.83) (xy 340.36 36.83)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2cf6f257-6dd4-4066-9bcc-ad9922ab8288")
-	)
-	(wire
-		(pts
 			(xy 45.72 220.98) (xy 45.72 215.9)
 		)
 		(stroke
@@ -7904,16 +7641,6 @@
 			(type default)
 		)
 		(uuid "4423a0e2-94d5-4f94-9f90-67b097067f52")
-	)
-	(wire
-		(pts
-			(xy 332.74 36.83) (xy 334.01 36.83)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "456d735e-0f4d-496a-905a-8c0cf484db76")
 	)
 	(wire
 		(pts
@@ -8214,6 +7941,16 @@
 			(type default)
 		)
 		(uuid "68a5deaa-43b1-4d52-a2a4-cfa05c942e1f")
+	)
+	(wire
+		(pts
+			(xy 344.17 31.75) (xy 344.17 34.29)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "693fce29-2a29-4654-96c9-d25f2cc1daa5")
 	)
 	(wire
 		(pts
@@ -8737,7 +8474,7 @@
 	)
 	(wire
 		(pts
-			(xy 340.36 36.83) (xy 344.17 36.83)
+			(xy 332.74 36.83) (xy 344.17 36.83)
 		)
 		(stroke
 			(width 0)
@@ -8857,7 +8594,7 @@
 	)
 	(wire
 		(pts
-			(xy 148.59 208.28) (xy 148.59 204.47)
+			(xy 148.59 208.28) (xy 148.59 205.74)
 		)
 		(stroke
 			(width 0)
@@ -9054,6 +8791,16 @@
 			(type default)
 		)
 		(uuid "f5660bfc-7db9-41e7-b80f-8258e69c9086")
+	)
+	(wire
+		(pts
+			(xy 148.59 205.74) (xy 148.59 204.47)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f5bd9d0f-ef47-4aaa-b0b2-0e5d682c1372")
 	)
 	(wire
 		(pts
@@ -12905,83 +12652,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:PWR_FLAG")
-		(at 334.01 36.83 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "3a4af09c-4d16-4b88-a38a-26d1f9c1b2b6")
-		(property "Reference" "#FLG04"
-			(at 334.01 34.925 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "PWR_FLAG"
-			(at 331.216 29.21 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 334.01 36.83 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 334.01 36.83 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Special symbol for telling ERC where power comes from"
-			(at 334.01 36.83 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "d72f7a54-3678-44b1-bd62-3ca12ee52bdf")
-		)
-		(instances
-			(project "Urumi-Nema-17-Node"
-				(path "/8685699d-ff1f-485f-8f40-0c2a36cf5da3"
-					(reference "#FLG04")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "B2B-XH-A_LF__SN_:B2B-XH-A_LF__SN_")
 		(at 360.68 149.86 180)
 		(unit 1)
@@ -14707,85 +14377,6 @@
 		)
 	)
 	(symbol
-		(lib_id "fab:PWR_FLAG")
-		(at 140.97 135.89 90)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "76ad63fa-091a-4231-bfd5-9090f6b626b5")
-		(property "Reference" "#FLG01"
-			(at 140.97 135.89 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "PWR_FLAG"
-			(at 137.16 135.8899 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 140.97 135.89 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 140.97 135.89 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Special symbol for telling ERC where power comes from"
-			(at 140.97 135.89 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "56a4b2cf-ff10-4746-8e59-a2d355b7bef6")
-		)
-		(instances
-			(project "Urumi-Nema-17-Node"
-				(path "/8685699d-ff1f-485f-8f40-0c2a36cf5da3"
-					(reference "#FLG01")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "B2B-XH-A_LF__SN_:B2B-XH-A_LF__SN_")
 		(at 360.68 224.79 0)
 		(unit 1)
@@ -15926,83 +15517,6 @@
 		)
 	)
 	(symbol
-		(lib_id "fab:PWR_12V")
-		(at 340.36 36.83 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "9a309dfe-af25-4580-8a86-9f6b746aa033")
-		(property "Reference" "#PWR09"
-			(at 340.36 40.64 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "PWR_12V"
-			(at 341.122 28.956 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 340.36 36.83 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 340.36 36.83 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+12V\""
-			(at 340.36 36.83 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "b8649d3f-c460-401a-9878-eeeb16773c1e")
-		)
-		(instances
-			(project "Urumi-Nema-17-Node"
-				(path "/8685699d-ff1f-485f-8f40-0c2a36cf5da3"
-					(reference "#PWR09")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "fab:Switch_Tactile_CnK")
 		(at 33.02 175.26 0)
 		(unit 1)
@@ -16077,6 +15591,83 @@
 			(project "Urumi-Nema-17-Node"
 				(path "/8685699d-ff1f-485f-8f40-0c2a36cf5da3"
 					(reference "SW1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:PWR_FLAG")
+		(at 148.59 205.74 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "9b170e91-7e9d-40bc-8167-3b0a0aaaec22")
+		(property "Reference" "#FLG01"
+			(at 146.685 205.74 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "PWR_FLAG"
+			(at 140.97 208.534 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 148.59 205.74 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 148.59 205.74 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Special symbol for telling ERC where power comes from"
+			(at 148.59 205.74 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "fbcb23c8-9448-4930-94ee-67887687a1f0")
+		)
+		(instances
+			(project "Urumi-Nema-17-Node"
+				(path "/8685699d-ff1f-485f-8f40-0c2a36cf5da3"
+					(reference "#FLG01")
 					(unit 1)
 				)
 			)
@@ -16766,6 +16357,84 @@
 			(project "Urumi-Nema-17-Node"
 				(path "/8685699d-ff1f-485f-8f40-0c2a36cf5da3"
 					(reference "R8")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "fab:PWR_24V")
+		(at 344.17 31.75 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "a739671c-281b-4127-b9a0-79d70d88abe3")
+		(property "Reference" "#PWR09"
+			(at 344.17 35.56 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "PWR_24V"
+			(at 344.17 26.67 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 344.17 31.75 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 344.17 31.75 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+24V\""
+			(at 344.17 31.75 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "d06dc116-85e8-4528-b8b7-8cfc704312c3")
+		)
+		(instances
+			(project "Urumi-Nema-17-Node"
+				(path "/8685699d-ff1f-485f-8f40-0c2a36cf5da3"
+					(reference "#PWR09")
 					(unit 1)
 				)
 			)
