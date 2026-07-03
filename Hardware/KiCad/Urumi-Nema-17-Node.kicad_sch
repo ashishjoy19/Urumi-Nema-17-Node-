@@ -6558,6 +6558,18 @@
 		(uuid "010eb3c6-0891-49cd-a122-a8fa5fe65304")
 	)
 	(rectangle
+		(start 198.12 35.56)
+		(end 238.76 74.93)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid "04573d02-3f46-47de-8965-2a97a28eb2af")
+	)
+	(rectangle
 		(start 102.87 158.75)
 		(end 187.96 227.33)
 		(stroke
@@ -6595,7 +6607,7 @@
 	)
 	(rectangle
 		(start 12.7 193.04)
-		(end 78.74 228.6)
+		(end 78.74 259.08)
 		(stroke
 			(width 0)
 			(type default)
@@ -6616,6 +6628,18 @@
 			(type none)
 		)
 		(uuid "7bb1db82-941d-49c0-abb9-6219f4a3731d")
+	)
+	(rectangle
+		(start 17.78 231.14)
+		(end 71.12 254)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid "81dfbde2-3c69-422a-bf22-ea843a9a7bc6")
 	)
 	(rectangle
 		(start 278.13 20.32)
@@ -6851,6 +6875,16 @@
 		)
 		(uuid "6ad295b3-bc93-4481-91b9-d6f63b9d0916")
 	)
+	(text "Debug LED\n"
+		(exclude_from_sim no)
+		(at 54.61 250.698 0)
+		(effects
+			(font
+				(size 2.54 2.54)
+			)
+		)
+		(uuid "7246aa1c-35c7-4749-afb5-8a5fb9ce475c")
+	)
 	(text "Termination resistor only needed in last node"
 		(exclude_from_sim no)
 		(at 164.338 222.25 0)
@@ -6883,6 +6917,18 @@
 			(justify left)
 		)
 		(uuid "ba4ada8f-669b-4396-882c-47dd673f4f6b")
+	)
+	(text "DM542 Output\n"
+		(exclude_from_sim no)
+		(at 218.694 40.132 0)
+		(effects
+			(font
+				(size 2.54 2.54)
+				(thickness 0.508)
+				(bold yes)
+			)
+		)
+		(uuid "c16e45f5-f972-4137-8a8a-10e07ba2e57b")
 	)
 	(text "24V Power Input\nRS485\n\n"
 		(exclude_from_sim no)
@@ -7254,7 +7300,7 @@
 	)
 	(wire
 		(pts
-			(xy 209.55 226.06) (xy 209.55 227.33)
+			(xy 26.67 241.3) (xy 26.67 242.57)
 		)
 		(stroke
 			(width 0)
@@ -8364,7 +8410,7 @@
 	)
 	(wire
 		(pts
-			(xy 219.71 226.06) (xy 209.55 226.06)
+			(xy 36.83 241.3) (xy 26.67 241.3)
 		)
 		(stroke
 			(width 0)
@@ -9587,7 +9633,7 @@
 	)
 	(global_label "BLUE_LED"
 		(shape input)
-		(at 237.49 226.06 0)
+		(at 54.61 241.3 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -9597,7 +9643,7 @@
 		)
 		(uuid "68f44634-9677-4e49-b2b0-ef89493b5cf2")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 249.6675 226.06 0)
+			(at 66.7875 241.3 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11115,7 +11161,7 @@
 		(in_bom yes)
 		(on_board no)
 		(in_pos_files yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "0b5aaf43-8eef-4da6-a8a8-5a0ab1f749f5")
 		(property "Reference" "D3"
 			(at 58.42 204.47 0)
@@ -13591,7 +13637,7 @@
 	)
 	(symbol
 		(lib_id "PCM_fab:R_1206")
-		(at 232.41 226.06 90)
+		(at 49.53 241.3 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -13601,7 +13647,7 @@
 		(dnp no)
 		(uuid "4e78163f-2919-437b-9ec1-de1dfca37dff")
 		(property "Reference" "R2"
-			(at 232.41 219.71 90)
+			(at 49.53 234.95 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -13611,7 +13657,7 @@
 			)
 		)
 		(property "Value" "1k"
-			(at 232.41 222.25 90)
+			(at 49.53 237.49 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -13621,7 +13667,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
-			(at 250.19 232.918 90)
+			(at 67.31 248.158 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13632,7 +13678,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 232.41 226.06 0)
+			(at 49.53 241.3 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13643,7 +13689,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 232.41 226.06 0)
+			(at 49.53 241.3 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13829,7 +13875,7 @@
 	)
 	(symbol
 		(lib_id "fab:PWR_GND")
-		(at 209.55 227.33 0)
+		(at 26.67 242.57 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -13840,7 +13886,7 @@
 		(fields_autoplaced yes)
 		(uuid "55435d41-5e3e-440a-b1fe-9a2f88edfebf")
 		(property "Reference" "#PWR010"
-			(at 209.55 233.68 0)
+			(at 26.67 248.92 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13851,7 +13897,7 @@
 			)
 		)
 		(property "Value" "PWR_GND"
-			(at 209.55 232.41 0)
+			(at 26.67 247.65 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -13861,7 +13907,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 209.55 227.33 0)
+			(at 26.67 242.57 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13872,7 +13918,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 209.55 227.33 0)
+			(at 26.67 242.57 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13883,7 +13929,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 209.55 227.33 0)
+			(at 26.67 242.57 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14226,9 +14272,9 @@
 		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
-		(on_board yes)
+		(on_board no)
 		(in_pos_files yes)
-		(dnp no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "70ccc039-5cdf-4c2c-b3d6-3c89f553edb0")
 		(property "Reference" "#PWR017"
@@ -14689,7 +14735,7 @@
 		(in_bom yes)
 		(on_board no)
 		(in_pos_files yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "7fa58d00-884b-483a-b686-f1a0dcc182c8")
 		(property "Reference" "R9"
 			(at 36.322 210.82 90)
@@ -16908,7 +16954,7 @@
 		(in_bom yes)
 		(on_board no)
 		(in_pos_files yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "b81dde74-9ad6-4f4c-a276-d5eb662282ba")
 		(property "Reference" "R10"
 			(at 39.37 218.694 90)
@@ -17065,7 +17111,7 @@
 		(in_bom yes)
 		(on_board no)
 		(in_pos_files yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "bb8d1de3-1dc9-4cbc-9a0a-860903eea11e")
 		(property "Reference" "R11"
 			(at 39.624 203.708 90)
@@ -19007,7 +19053,7 @@
 	)
 	(symbol
 		(lib_id "PCM_fab:LED_1206")
-		(at 223.52 226.06 0)
+		(at 40.64 241.3 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -19018,7 +19064,7 @@
 		(fields_autoplaced yes)
 		(uuid "f08a9615-61c9-4cec-885f-4e9edc560268")
 		(property "Reference" "D1"
-			(at 221.9198 219.71 0)
+			(at 39.0398 234.95 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -19028,7 +19074,7 @@
 			)
 		)
 		(property "Value" "LED_1206"
-			(at 221.9198 222.25 0)
+			(at 39.0398 237.49 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -19038,7 +19084,7 @@
 			)
 		)
 		(property "Footprint" "PCM_fab:LED_1206"
-			(at 223.52 226.06 0)
+			(at 40.64 241.3 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -19049,7 +19095,7 @@
 			)
 		)
 		(property "Datasheet" "https://optoelectronics.liteon.com/upload/download/DS-22-98-0002/LTST-C150CKT.pdf"
-			(at 223.52 226.06 0)
+			(at 40.64 241.3 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -19060,7 +19106,7 @@
 			)
 		)
 		(property "Description" "Light emitting diode, Lite-On Inc. LTST, SMD"
-			(at 223.52 226.06 0)
+			(at 40.64 241.3 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
