@@ -6549,6 +6549,18 @@
 		(uuid "010eb3c6-0891-49cd-a122-a8fa5fe65304")
 	)
 	(rectangle
+		(start 198.12 25.4)
+		(end 236.22 85.09)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid "02ad5e5a-d4e3-4ee1-950f-c7dec80f790f")
+	)
+	(rectangle
 		(start 102.87 158.75)
 		(end 187.96 227.33)
 		(stroke
@@ -6754,6 +6766,8 @@
 		(effects
 			(font
 				(size 2.54 2.54)
+				(thickness 0.508)
+				(bold yes)
 			)
 		)
 		(uuid "18c44da3-9d81-48b1-9fa9-a4a3f0d7739b")
@@ -6787,6 +6801,18 @@
 			)
 		)
 		(uuid "26764fa2-37fa-4d1b-b562-f3910d183364")
+	)
+	(text "DM542 Out"
+		(exclude_from_sim no)
+		(at 217.17 30.48 0)
+		(effects
+			(font
+				(size 2.54 2.54)
+				(thickness 0.508)
+				(bold yes)
+			)
+		)
+		(uuid "35916f8b-ecf4-4bc6-a0d9-11f591b31728")
 	)
 	(text "Laser Module\n"
 		(exclude_from_sim no)
@@ -6881,6 +6907,8 @@
 		(effects
 			(font
 				(size 2.54 2.54)
+				(thickness 0.508)
+				(bold yes)
 			)
 		)
 		(uuid "c4d4afd3-8798-4c43-8dc2-39a2e5de9eca")
