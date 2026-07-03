@@ -326,6 +326,146 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "R_1206_1"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "R"
+				(at 2.54 0 90)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "R_1206"
+				(at -2.54 0 90)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "fab:R_1206"
+				(at 0 0 90)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Resistor"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "R res resistor RC1206FR-074M99L RC1206FR-07499KL RC1206FR-0749K9L RC1206FR-0749R9L RC1206FR-074R99L ERJ-8BWJR100V RC1206FR-070RL RC1206FR-071RL RC1206FR-0710RL RC1206FR-07100RL RC1206FR-07499RL RC1206FR-071KL RC1206FR-074K99L RC1206FR-0710KL RC1206FR-07100KL RC1206FR-071ML RC1206FR-0710ML PT1206FR-070R1L"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "*R*1206*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "R_1206_1_0_1"
+				(rectangle
+					(start -1.016 -2.54)
+					(end 1.016 2.54)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+			)
+			(symbol "R_1206_1_1_1"
+				(pin passive line
+					(at 0 5.08 270)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -5.08 90)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Regulator_Switching:TPS54302"
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -912,146 +1052,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "fab:R_1206"
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(offset 0)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(in_pos_files yes)
-			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "R"
-				(at 2.54 0 90)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "R_1206"
-				(at -2.54 0 90)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" "fab:R_1206"
-				(at 0 0 90)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Datasheet" "~"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Description" "Resistor"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_keywords" "R res resistor RC1206FR-074M99L RC1206FR-07499KL RC1206FR-0749K9L RC1206FR-0749R9L RC1206FR-074R99L ERJ-8BWJR100V RC1206FR-070RL RC1206FR-071RL RC1206FR-0710RL RC1206FR-07100RL RC1206FR-07499RL RC1206FR-071KL RC1206FR-074K99L RC1206FR-0710KL RC1206FR-07100KL RC1206FR-071ML RC1206FR-0710ML PT1206FR-070R1L"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_fp_filters" "*R*1206*"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "R_1206_0_1"
-				(rectangle
-					(start -1.016 -2.54)
-					(end 1.016 2.54)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-			)
-			(symbol "R_1206_1_1"
-				(pin passive line
-					(at 0 5.08 270)
-					(length 2.54)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 -5.08 90)
-					(length 2.54)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "fab:Regulator_Linear_5.0V_1A_OnSemi"
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -1236,12 +1236,6 @@
 		(uuid "01e6537a-9188-482f-bd34-ce611a2ffb28")
 	)
 	(junction
-		(at 97.79 86.36)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "0e9328a7-cfac-4319-88b7-ae9c212abcaa")
-	)
-	(junction
 		(at 165.1 113.03)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1278,6 +1272,12 @@
 		(uuid "571543eb-20b6-455d-8010-b1f30dcdf125")
 	)
 	(junction
+		(at 177.8 113.03)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "7288e6c0-ba1e-4e5b-b4ec-4012df060b4d")
+	)
+	(junction
 		(at 97.79 100.33)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1294,6 +1294,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "8049c010-e6d8-4ace-891c-610248dd2470")
+	)
+	(junction
+		(at 97.79 86.36)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "873853ab-fe52-46c5-a702-ed91fe52c640")
 	)
 	(junction
 		(at 74.93 86.36)
@@ -1318,12 +1324,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "d5825300-e97a-418e-b4d3-d62c82589b25")
-	)
-	(junction
-		(at 177.8 113.03)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "e50da6e3-3881-499d-9499-0cc59f3d9dd2")
 	)
 	(junction
 		(at 209.55 99.06)
@@ -1499,6 +1499,16 @@
 	)
 	(wire
 		(pts
+			(xy 97.79 86.36) (xy 107.95 86.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "552f8fd7-8a58-4780-af61-a1f14336f53f")
+	)
+	(wire
+		(pts
 			(xy 107.95 100.33) (xy 97.79 100.33)
 		)
 		(stroke
@@ -1596,16 +1606,6 @@
 			(type default)
 		)
 		(uuid "8b0c5521-8583-49ab-baec-064bdccae251")
-	)
-	(wire
-		(pts
-			(xy 107.95 86.36) (xy 97.79 86.36)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8bc48a96-1d78-4231-a142-9b9929589634")
 	)
 	(wire
 		(pts
@@ -1837,6 +1837,16 @@
 		)
 		(uuid "928a1afc-4c11-4bd0-9be4-cc09dc7476f2")
 	)
+	(label "EN"
+		(at 102.87 100.33 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "f6cc6617-8fe1-4305-b700-234b757920f7")
+	)
 	(hierarchical_label "PWR_24"
 		(shape input)
 		(at 67.31 76.2 0)
@@ -1858,88 +1868,6 @@
 			(justify left)
 		)
 		(uuid "e1716d73-f1b1-41df-96a8-acce21820922")
-	)
-	(symbol
-		(lib_id "fab:R_1206")
-		(at 97.79 91.44 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "0164ca10-917b-47fe-ba16-7627e53f929c")
-		(property "Reference" "R1"
-			(at 100.33 90.1699 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "910k"
-			(at 100.33 92.7099 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "fab:R_1206"
-			(at 97.79 91.44 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 97.79 91.44 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 97.79 91.44 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "2a1d2f49-1dd4-416b-9642-31dd6467af37")
-		)
-		(pin "2"
-			(uuid "5e811a1a-4025-4cfd-a0d7-ec3df8e86ea2")
-		)
-		(instances
-			(project "Urumi-Nema-17-Node"
-				(path "/8685699d-ff1f-485f-8f40-0c2a36cf5da3/d0fcb8b3-02f3-47e4-a852-511c1232bb4a"
-					(reference "R1")
-					(unit 1)
-				)
-			)
-		)
 	)
 	(symbol
 		(lib_id "fab:PWR_GND")
@@ -2024,7 +1952,7 @@
 		(at 83.82 92.71 0)
 		(unit 1)
 		(body_style 1)
-		(exclude_from_sim no)
+		(exclude_from_sim yes)
 		(in_bom yes)
 		(on_board yes)
 		(in_pos_files yes)
@@ -2041,7 +1969,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "0.1uF"
+		(property "Value" "100nF"
 			(at 86.614 92.964 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2052,7 +1980,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "fab:C_1206"
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
 			(at 83.82 92.71 0)
 			(hide yes)
 			(show_name no)
@@ -2095,6 +2023,89 @@
 			(project "Urumi-Nema-17-Node"
 				(path "/8685699d-ff1f-485f-8f40-0c2a36cf5da3/d0fcb8b3-02f3-47e4-a852-511c1232bb4a"
 					(reference "C2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_name "R_1206_1")
+		(lib_id "fab:R_1206")
+		(at 97.79 91.44 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "1c4fe1e8-c2e5-4ceb-add5-1f01899debcf")
+		(property "Reference" "R17"
+			(at 100.33 90.1699 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "910k"
+			(at 100.33 92.7099 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
+			(at 97.79 91.44 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 97.79 91.44 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 97.79 91.44 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "1ae5f1da-9039-4337-a72b-806e3358eb90")
+		)
+		(pin "2"
+			(uuid "534c7e3d-5724-4e02-bdd8-442d1cb5ee4d")
+		)
+		(instances
+			(project "Urumi-Nema-17-Node"
+				(path "/8685699d-ff1f-485f-8f40-0c2a36cf5da3/d0fcb8b3-02f3-47e4-a852-511c1232bb4a"
+					(reference "R17")
 					(unit 1)
 				)
 			)
@@ -2339,6 +2350,89 @@
 		)
 	)
 	(symbol
+		(lib_name "R_1206_1")
+		(lib_id "fab:R_1206")
+		(at 97.79 106.68 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "3cceb1cc-2f47-42dc-994c-9170e9825954")
+		(property "Reference" "R16"
+			(at 100.33 105.4099 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "75K"
+			(at 100.33 107.9499 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
+			(at 97.79 106.68 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 97.79 106.68 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 97.79 106.68 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "c33dd7b6-8e5a-4db8-ac58-8a78bbd7b4c5")
+		)
+		(pin "2"
+			(uuid "e22ab7fc-91ed-45b0-b9c2-64e21c81a6e4")
+		)
+		(instances
+			(project "Urumi-Nema-17-Node"
+				(path "/8685699d-ff1f-485f-8f40-0c2a36cf5da3/d0fcb8b3-02f3-47e4-a852-511c1232bb4a"
+					(reference "R16")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "fab:PWR_GND")
 		(at 154.94 101.6 0)
 		(unit 1)
@@ -2438,7 +2532,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "0.1uF"
+		(property "Value" "100nF"
 			(at 136.144 79.756 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2449,7 +2543,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "fab:C_1206"
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
 			(at 135.89 82.55 0)
 			(hide yes)
 			(show_name no)
@@ -2492,88 +2586,6 @@
 			(project "Urumi-Nema-17-Node"
 				(path "/8685699d-ff1f-485f-8f40-0c2a36cf5da3/d0fcb8b3-02f3-47e4-a852-511c1232bb4a"
 					(reference "C3")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "fab:R_1206")
-		(at 177.8 118.11 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "50ac29eb-dd88-476d-990f-04af772a8033")
-		(property "Reference" "R4"
-			(at 180.34 116.8399 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "9.1k"
-			(at 180.34 119.3799 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "fab:R_1206"
-			(at 177.8 118.11 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 177.8 118.11 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 177.8 118.11 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "7d8ec05b-dad4-4d32-b971-7fe01ec8ba37")
-		)
-		(pin "1"
-			(uuid "6a7b24ab-a38b-4f4c-881f-bb41dbcc64cc")
-		)
-		(instances
-			(project "Urumi-Nema-17-Node"
-				(path "/8685699d-ff1f-485f-8f40-0c2a36cf5da3/d0fcb8b3-02f3-47e4-a852-511c1232bb4a"
-					(reference "R4")
 					(unit 1)
 				)
 			)
@@ -2772,7 +2784,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "fab:C_1206"
+		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder"
 			(at 154.94 92.71 0)
 			(hide yes)
 			(show_name no)
@@ -2815,170 +2827,6 @@
 			(project "Urumi-Nema-17-Node"
 				(path "/8685699d-ff1f-485f-8f40-0c2a36cf5da3/d0fcb8b3-02f3-47e4-a852-511c1232bb4a"
 					(reference "C4")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "fab:R_1206")
-		(at 177.8 106.68 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "8ad7319b-6f1c-4688-8b4f-eb26f5df8dce")
-		(property "Reference" "R3"
-			(at 180.34 105.4099 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "100k"
-			(at 180.34 107.9499 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "fab:R_1206"
-			(at 177.8 106.68 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 177.8 106.68 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 177.8 106.68 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "dccaf56d-6105-46ee-a5e0-c9b6e15d5c45")
-		)
-		(pin "1"
-			(uuid "a00a0cb9-5bd9-49d8-b264-feb34700e7bf")
-		)
-		(instances
-			(project "Urumi-Nema-17-Node"
-				(path "/8685699d-ff1f-485f-8f40-0c2a36cf5da3/d0fcb8b3-02f3-47e4-a852-511c1232bb4a"
-					(reference "R3")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "fab:R_1206")
-		(at 97.79 106.68 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "8ddaf4c1-d88c-49c4-ac69-3e8e4ba631ca")
-		(property "Reference" "R2"
-			(at 100.33 105.4099 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "75k"
-			(at 100.33 107.9499 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "fab:R_1206"
-			(at 97.79 106.68 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 97.79 106.68 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 97.79 106.68 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "e6d74b7f-c87d-43c3-a47b-17b00b4394ce")
-		)
-		(pin "2"
-			(uuid "b3b3a524-fcf2-4905-9c0b-7225cd1052cd")
-		)
-		(instances
-			(project "Urumi-Nema-17-Node"
-				(path "/8685699d-ff1f-485f-8f40-0c2a36cf5da3/d0fcb8b3-02f3-47e4-a852-511c1232bb4a"
-					(reference "R2")
 					(unit 1)
 				)
 			)
@@ -3571,6 +3419,89 @@
 		)
 	)
 	(symbol
+		(lib_name "R_1206_1")
+		(lib_id "fab:R_1206")
+		(at 177.8 118.11 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "cc2bea52-db3b-47a5-a580-d8ed3ea2352a")
+		(property "Reference" "R14"
+			(at 180.34 116.8399 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "9.1K"
+			(at 180.34 119.3799 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
+			(at 177.8 118.11 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 177.8 118.11 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 177.8 118.11 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "ae5f191f-86cf-4680-b618-ea9796456b19")
+		)
+		(pin "2"
+			(uuid "fe8ac78e-2e84-4863-ac9a-331b22e548d3")
+		)
+		(instances
+			(project "Urumi-Nema-17-Node"
+				(path "/8685699d-ff1f-485f-8f40-0c2a36cf5da3/d0fcb8b3-02f3-47e4-a852-511c1232bb4a"
+					(reference "R14")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "fab:Regulator_Linear_5.0V_1A_OnSemi")
 		(at 234.95 99.06 0)
 		(unit 1)
@@ -3648,6 +3579,89 @@
 			(project "Urumi-Nema-17-Node"
 				(path "/8685699d-ff1f-485f-8f40-0c2a36cf5da3/d0fcb8b3-02f3-47e4-a852-511c1232bb4a"
 					(reference "U4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_name "R_1206_1")
+		(lib_id "fab:R_1206")
+		(at 177.8 106.68 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "e74229f8-eb08-4f6e-8907-84a412cc6b8e")
+		(property "Reference" "R13"
+			(at 180.34 105.4099 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100K"
+			(at 180.34 107.9499 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
+			(at 177.8 106.68 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 177.8 106.68 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 177.8 106.68 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "aa8b7be9-e21c-459c-a3fc-02f4d732e725")
+		)
+		(pin "2"
+			(uuid "45d14729-77f0-46ba-a616-5c9c369329b5")
+		)
+		(instances
+			(project "Urumi-Nema-17-Node"
+				(path "/8685699d-ff1f-485f-8f40-0c2a36cf5da3/d0fcb8b3-02f3-47e4-a852-511c1232bb4a"
+					(reference "R13")
 					(unit 1)
 				)
 			)
@@ -3768,7 +3782,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "fab:C_1206"
+		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder"
 			(at 168.91 92.71 0)
 			(hide yes)
 			(show_name no)
