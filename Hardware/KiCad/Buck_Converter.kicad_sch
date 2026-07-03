@@ -1284,12 +1284,6 @@
 		(uuid "76f8ecd7-bccd-4daa-a58e-b0ef1afc8cce")
 	)
 	(junction
-		(at 67.31 81.28)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "77837eb4-e50a-4c2f-8616-493dd25c025d")
-	)
-	(junction
 		(at 177.8 88.9)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1659,7 +1653,7 @@
 	)
 	(wire
 		(pts
-			(xy 67.31 81.28) (xy 67.31 86.36)
+			(xy 67.31 76.2) (xy 67.31 86.36)
 		)
 		(stroke
 			(width 0)
@@ -1676,16 +1670,6 @@
 			(type default)
 		)
 		(uuid "ae3ef01f-04e7-4cd8-ae95-31d914d293c2")
-	)
-	(wire
-		(pts
-			(xy 67.31 76.2) (xy 67.31 81.28)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b94216d8-1401-4099-b33e-a7c4b2d14ec2")
 	)
 	(wire
 		(pts
@@ -2827,85 +2811,6 @@
 			(project "Urumi-Nema-17-Node"
 				(path "/8685699d-ff1f-485f-8f40-0c2a36cf5da3/d0fcb8b3-02f3-47e4-a852-511c1232bb4a"
 					(reference "C4")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "fab:PWR_FLAG")
-		(at 67.31 81.28 90)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "9bb49d15-b7db-4621-b9ad-9b39b1a3ff94")
-		(property "Reference" "#FLG02"
-			(at 67.31 81.28 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "PWR_FLAG"
-			(at 63.5 81.2799 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 67.31 81.28 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 67.31 81.28 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Special symbol for telling ERC where power comes from"
-			(at 67.31 81.28 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "9878f571-31fd-47ad-afd4-edae550de06e")
-		)
-		(instances
-			(project "Urumi-Nema-17-Node"
-				(path "/8685699d-ff1f-485f-8f40-0c2a36cf5da3/d0fcb8b3-02f3-47e4-a852-511c1232bb4a"
-					(reference "#FLG02")
 					(unit 1)
 				)
 			)
