@@ -546,7 +546,7 @@
       "gencad": "",
       "idf": "",
       "netlist": "",
-      "plot": "../Fabrication/Gerber/",
+      "plot": "../Fabrication/v1.0.1/",
       "pos_files": "",
       "specctra_dsn": "",
       "step": "",
@@ -681,7 +681,7 @@
         "uuid": "8685699d-ff1f-485f-8f40-0c2a36cf5da3"
       }
     ],
-    "used_designators": "",
+    "used_designators": "TP1-16",
     "variants": []
   },
   "sheets": [
