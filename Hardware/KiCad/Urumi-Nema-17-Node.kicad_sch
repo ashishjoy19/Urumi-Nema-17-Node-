@@ -1774,6 +1774,129 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Connector:TestPoint"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0.762)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "TP"
+				(at 0 6.858 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "TestPoint"
+				(at 0 5.08 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 5.08 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 5.08 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "test point"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "test point tp"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "Pin* Test*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "TestPoint_0_1"
+				(circle
+					(center 0 3.302)
+					(radius 0.762)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "TestPoint_1_1"
+				(pin passive line
+					(at 0 0 90)
+					(length 2.54)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "DRV8825_STEPPER_MOTOR_DRIVER_CARRIER:DRV8825_STEPPER_MOTOR_DRIVER_CARRIER"
 			(pin_names
 				(offset 1.016)
@@ -7013,6 +7136,12 @@
 		(uuid "12dda38c-df42-4a8f-9e2b-9cc6ea9adaa6")
 	)
 	(junction
+		(at 106.68 113.03)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "130682a4-28c5-4e8b-92a1-8d51900f8297")
+	)
+	(junction
 		(at 332.74 67.31)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -7043,6 +7172,12 @@
 		(uuid "30fc741b-e581-4ea4-ada9-ef4a76db594c")
 	)
 	(junction
+		(at 120.65 120.65)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "34ec6d8f-2d99-4d80-a563-0867e0d65134")
+	)
+	(junction
 		(at 148.59 205.74)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -7067,10 +7202,22 @@
 		(uuid "4a26bbf2-7bc5-472c-9204-55f8eb76c619")
 	)
 	(junction
+		(at 238.76 104.14)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "4a6ce698-9237-47e3-8ed7-54d3a1092c17")
+	)
+	(junction
 		(at 294.64 46.99)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "4c36bc26-c05a-4e42-a259-af67b1a76e09")
+	)
+	(junction
+		(at 116.84 186.69)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "4d2acc59-8d59-460d-a8a5-d49a18c056d5")
 	)
 	(junction
 		(at 345.44 158.75)
@@ -7079,16 +7226,40 @@
 		(uuid "515fb8a7-fb89-4071-8c4a-27123f993b93")
 	)
 	(junction
+		(at 336.55 143.51)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "52da3b3e-d779-4437-80f8-9f777bd4ec2a")
+	)
+	(junction
+		(at 233.68 104.14)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "5bbc8704-ce33-4534-9caa-8f3787167f38")
+	)
+	(junction
 		(at 107.95 62.23)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "5c539d5b-32c2-4b86-adf7-9bc9d1f0d09a")
 	)
 	(junction
+		(at 26.67 31.75)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "5fb96ac1-21c9-4556-8555-beaf58742f85")
+	)
+	(junction
 		(at 133.35 54.61)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "62d3769b-beb2-419f-8a4a-d997f45e3963")
+	)
+	(junction
+		(at 68.58 31.75)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "6b32e73f-4bed-484b-b81b-a0f37647f2e1")
 	)
 	(junction
 		(at 52.07 175.26)
@@ -7101,6 +7272,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "745cd5bd-ebff-45af-b4fb-b024a61c938c")
+	)
+	(junction
+		(at 172.72 186.69)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "97d67562-b034-410f-9425-afa657d434c2")
 	)
 	(junction
 		(at 107.95 54.61)
@@ -7121,6 +7298,12 @@
 		(uuid "ab21c594-03b6-4c75-b417-8340455329a6")
 	)
 	(junction
+		(at 236.22 104.14)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "ab5b33d7-a5fc-49e0-8c89-6048bbf2d3ca")
+	)
+	(junction
 		(at 71.12 213.36)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -7131,6 +7314,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "b411003a-58cc-49a2-8186-2d69d41e2b85")
+	)
+	(junction
+		(at 135.89 184.15)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "c0eb1f91-f447-455b-a3f0-5a299b1d0e98")
 	)
 	(junction
 		(at 350.52 189.23)
@@ -7161,6 +7350,24 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "d0e92c5d-d9c5-4293-be7b-517dba0ff324")
+	)
+	(junction
+		(at 172.72 181.61)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "d3314561-1823-42c0-8bfc-69fada7c4041")
+	)
+	(junction
+		(at 354.33 189.23)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "d4561de2-233a-48d8-8fee-99f2d6f55ea4")
+	)
+	(junction
+		(at 135.89 194.31)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "dfb22824-5486-43fc-a501-22025abe3e92")
 	)
 	(junction
 		(at 344.17 36.83)
@@ -7280,6 +7487,16 @@
 	)
 	(wire
 		(pts
+			(xy 172.72 186.69) (xy 175.26 186.69)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0c4c027e-6e03-4dec-a9ed-673c86957041")
+	)
+	(wire
+		(pts
 			(xy 213.36 109.22) (xy 240.03 109.22)
 		)
 		(stroke
@@ -7290,7 +7507,7 @@
 	)
 	(wire
 		(pts
-			(xy 134.62 194.31) (xy 138.43 194.31)
+			(xy 134.62 194.31) (xy 135.89 194.31)
 		)
 		(stroke
 			(width 0)
@@ -7370,7 +7587,17 @@
 	)
 	(wire
 		(pts
-			(xy 220.98 104.14) (xy 240.03 104.14)
+			(xy 336.55 143.51) (xy 345.44 143.51)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "164a83e5-6a31-46e6-96ad-edcbf2a828f9")
+	)
+	(wire
+		(pts
+			(xy 220.98 104.14) (xy 233.68 104.14)
 		)
 		(stroke
 			(width 0)
@@ -7380,7 +7607,7 @@
 	)
 	(wire
 		(pts
-			(xy 113.03 186.69) (xy 120.65 186.69)
+			(xy 113.03 186.69) (xy 116.84 186.69)
 		)
 		(stroke
 			(width 0)
@@ -7550,6 +7777,16 @@
 	)
 	(wire
 		(pts
+			(xy 172.72 181.61) (xy 175.26 181.61)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3389550d-87f8-4f5b-ba44-850eac7823d3")
+	)
+	(wire
+		(pts
 			(xy 223.52 170.18) (xy 223.52 179.07)
 		)
 		(stroke
@@ -7557,6 +7794,16 @@
 			(type default)
 		)
 		(uuid "34344d11-7920-4416-b1c4-4a91e970d077")
+	)
+	(wire
+		(pts
+			(xy 116.84 186.69) (xy 120.65 186.69)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "34750d6e-0874-4d6e-9ee3-a9990a34f2eb")
 	)
 	(wire
 		(pts
@@ -7590,6 +7837,16 @@
 	)
 	(wire
 		(pts
+			(xy 135.89 184.15) (xy 138.43 184.15)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3af71211-034d-4fae-8c78-2e5a9797c135")
+	)
+	(wire
+		(pts
 			(xy 223.52 162.56) (xy 223.52 161.29)
 		)
 		(stroke
@@ -7597,16 +7854,6 @@
 			(type default)
 		)
 		(uuid "3b0d548f-7480-4fb9-866e-2744a212296a")
-	)
-	(wire
-		(pts
-			(xy 119.38 120.65) (xy 123.19 120.65)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3b2a6f41-4c57-4798-982a-ae9e12a54b6b")
 	)
 	(wire
 		(pts
@@ -7670,7 +7917,7 @@
 	)
 	(wire
 		(pts
-			(xy 332.74 143.51) (xy 345.44 143.51)
+			(xy 332.74 143.51) (xy 336.55 143.51)
 		)
 		(stroke
 			(width 0)
@@ -7750,7 +7997,7 @@
 	)
 	(wire
 		(pts
-			(xy 158.75 181.61) (xy 175.26 181.61)
+			(xy 158.75 181.61) (xy 172.72 181.61)
 		)
 		(stroke
 			(width 0)
@@ -7790,7 +8037,7 @@
 	)
 	(wire
 		(pts
-			(xy 134.62 184.15) (xy 138.43 184.15)
+			(xy 134.62 184.15) (xy 135.89 184.15)
 		)
 		(stroke
 			(width 0)
@@ -7950,7 +8197,7 @@
 	)
 	(wire
 		(pts
-			(xy 119.38 118.11) (xy 123.19 118.11)
+			(xy 105.41 118.11) (xy 123.19 118.11)
 		)
 		(stroke
 			(width 0)
@@ -7970,7 +8217,17 @@
 	)
 	(wire
 		(pts
-			(xy 119.38 113.03) (xy 123.19 113.03)
+			(xy 135.89 194.31) (xy 138.43 194.31)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6499115d-40f2-46b5-90ea-1365929342e3")
+	)
+	(wire
+		(pts
+			(xy 105.41 113.03) (xy 106.68 113.03)
 		)
 		(stroke
 			(width 0)
@@ -8017,6 +8274,16 @@
 			(type default)
 		)
 		(uuid "6b8f40a3-c225-45c1-95dc-3feef132fbd5")
+	)
+	(wire
+		(pts
+			(xy 106.68 113.03) (xy 123.19 113.03)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6c9d9180-5f2e-4e16-9bf5-4330d5481342")
 	)
 	(wire
 		(pts
@@ -8130,7 +8397,7 @@
 	)
 	(wire
 		(pts
-			(xy 119.38 115.57) (xy 123.19 115.57)
+			(xy 105.41 115.57) (xy 123.19 115.57)
 		)
 		(stroke
 			(width 0)
@@ -8530,6 +8797,26 @@
 	)
 	(wire
 		(pts
+			(xy 238.76 104.14) (xy 240.03 104.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bd6ed561-325b-4b0c-974e-4d0c034b517e")
+	)
+	(wire
+		(pts
+			(xy 105.41 120.65) (xy 120.65 120.65)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bde3e770-0602-4899-b33a-d4b58cc8196a")
+	)
+	(wire
+		(pts
 			(xy 354.33 157.48) (xy 368.3 157.48)
 		)
 		(stroke
@@ -8550,7 +8837,17 @@
 	)
 	(wire
 		(pts
-			(xy 350.52 189.23) (xy 370.84 189.23)
+			(xy 120.65 120.65) (xy 123.19 120.65)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c32a75ed-b39c-4f0f-a4e3-3e86bf20f684")
+	)
+	(wire
+		(pts
+			(xy 350.52 189.23) (xy 354.33 189.23)
 		)
 		(stroke
 			(width 0)
@@ -8850,6 +9147,16 @@
 	)
 	(wire
 		(pts
+			(xy 236.22 104.14) (xy 238.76 104.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f5d49caf-9952-4bb6-b5f4-e0294b512d4c")
+	)
+	(wire
+		(pts
 			(xy 344.17 34.29) (xy 347.98 34.29)
 		)
 		(stroke
@@ -8857,6 +9164,16 @@
 			(type default)
 		)
 		(uuid "f61fe0bc-26a3-4fe9-996e-e2d6f7dc8355")
+	)
+	(wire
+		(pts
+			(xy 233.68 104.14) (xy 236.22 104.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f7ff3db3-5a0f-4079-b647-09e64d7110c1")
 	)
 	(wire
 		(pts
@@ -8880,13 +9197,23 @@
 	)
 	(wire
 		(pts
-			(xy 158.75 186.69) (xy 175.26 186.69)
+			(xy 158.75 186.69) (xy 172.72 186.69)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "f8af35ce-8655-4364-8e51-3d94d3f74f93")
+	)
+	(wire
+		(pts
+			(xy 354.33 189.23) (xy 370.84 189.23)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f8c8baa2-dc96-472e-b504-b3afb24b2263")
 	)
 	(wire
 		(pts
@@ -9052,7 +9379,7 @@
 	)
 	(global_label "SDI{slash}MOSI"
 		(shape input)
-		(at 119.38 113.03 180)
+		(at 105.41 113.03 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -9063,7 +9390,7 @@
 		)
 		(uuid "07899b3d-a057-414b-a855-f4c3005cf8aa")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 107.3838 113.03 0)
+			(at 93.4138 113.03 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9584,7 +9911,7 @@
 	)
 	(global_label "CS"
 		(shape input)
-		(at 119.38 120.65 180)
+		(at 105.41 120.65 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -9595,7 +9922,7 @@
 		)
 		(uuid "601252c5-f1f5-4b3a-8922-91cf81025b1f")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 113.9153 120.65 0)
+			(at 99.9453 120.65 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9657,7 +9984,7 @@
 	)
 	(global_label "SDO{slash}MISO"
 		(shape input)
-		(at 119.38 115.57 180)
+		(at 105.41 115.57 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -9668,7 +9995,7 @@
 		)
 		(uuid "6c5d5c65-ce73-4948-9d3e-7df52a92cab2")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 106.6581 115.57 0)
+			(at 92.6881 115.57 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9682,7 +10009,7 @@
 	)
 	(global_label "SCK"
 		(shape input)
-		(at 119.38 118.11 180)
+		(at 105.41 118.11 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -9693,7 +10020,7 @@
 		)
 		(uuid "6f0ffaaa-bdf0-464b-b854-c05096e035d1")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 112.6453 118.11 0)
+			(at 98.6753 118.11 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11353,6 +11680,86 @@
 		)
 	)
 	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 172.72 186.69 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "0be43807-93b7-4aad-bcd2-4e27bd1edf91")
+		(property "Reference" "TP7"
+			(at 175.26 188.7219 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 175.26 191.2619 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_1.0x1.0mm"
+			(at 167.64 186.69 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 167.64 186.69 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "test point"
+			(at 172.72 186.69 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "2f02d09e-c08f-402b-852b-07d84246ef15")
+		)
+		(instances
+			(project "Urumi-Nema-17-Node"
+				(path "/8685699d-ff1f-485f-8f40-0c2a36cf5da3"
+					(reference "TP7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "fab:PWR_5V")
 		(at 350.52 179.07 0)
 		(mirror y)
@@ -12698,6 +13105,86 @@
 		)
 	)
 	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 336.55 143.51 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "3aaa8072-1599-45bb-b597-4bbf9caf9e58")
+		(property "Reference" "TP11"
+			(at 339.09 140.2079 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 334.01 138.9381 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_1.0x1.0mm"
+			(at 341.63 143.51 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 341.63 143.51 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "test point"
+			(at 336.55 143.51 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "a9488ffc-fe85-44df-94f8-042867e380a1")
+		)
+		(instances
+			(project "Urumi-Nema-17-Node"
+				(path "/8685699d-ff1f-485f-8f40-0c2a36cf5da3"
+					(reference "TP11")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "B2B-XH-A_LF__SN_:B2B-XH-A_LF__SN_")
 		(at 360.68 149.86 180)
 		(unit 1)
@@ -13081,6 +13568,86 @@
 			(project "Urumi-Nema-17-Node"
 				(path "/8685699d-ff1f-485f-8f40-0c2a36cf5da3"
 					(reference "R12")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 135.89 194.31 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "3cd6c4c2-dfc3-4673-a7c7-6603e0b2967a")
+		(property "Reference" "TP5"
+			(at 138.43 196.3419 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 138.43 198.8819 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_1.0x1.0mm"
+			(at 130.81 194.31 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 130.81 194.31 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "test point"
+			(at 135.89 194.31 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "0f580713-8fd1-465c-a2cf-4e72cd2720dd")
+		)
+		(instances
+			(project "Urumi-Nema-17-Node"
+				(path "/8685699d-ff1f-485f-8f40-0c2a36cf5da3"
+					(reference "TP5")
 					(unit 1)
 				)
 			)
@@ -14109,6 +14676,86 @@
 		)
 	)
 	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 116.84 186.69 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "6334da79-885f-4da1-9279-2e84bb319fcf")
+		(property "Reference" "TP3"
+			(at 119.38 183.3879 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 114.3 182.1181 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_1.0x1.0mm"
+			(at 121.92 186.69 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 121.92 186.69 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "test point"
+			(at 116.84 186.69 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "d549dc48-ee00-4c3f-98a0-46d64498a231")
+		)
+		(instances
+			(project "Urumi-Nema-17-Node"
+				(path "/8685699d-ff1f-485f-8f40-0c2a36cf5da3"
+					(reference "TP3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "fab:PWR_5V")
 		(at 27.94 67.31 0)
 		(unit 1)
@@ -14266,6 +14913,85 @@
 		)
 	)
 	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 120.65 120.65 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "6fa25d4d-faec-4100-a8e2-a40afd5ae665")
+		(property "Reference" "TP14"
+			(at 119.38 126.492 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 123.19 125.2219 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_1.0x1.0mm"
+			(at 115.57 120.65 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 115.57 120.65 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "test point"
+			(at 120.65 120.65 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "39111d37-a662-4ea4-890f-59632d89b16b")
+		)
+		(instances
+			(project "Urumi-Nema-17-Node"
+				(path "/8685699d-ff1f-485f-8f40-0c2a36cf5da3"
+					(reference "TP14")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "fab:PWR_GND")
 		(at 73.66 219.71 0)
 		(unit 1)
@@ -14338,6 +15064,86 @@
 			(project "Urumi-Nema-17-Node"
 				(path "/8685699d-ff1f-485f-8f40-0c2a36cf5da3"
 					(reference "#PWR017")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 135.89 184.15 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "75a590fb-31af-4ed4-b023-a18592320b0e")
+		(property "Reference" "TP4"
+			(at 138.43 180.8479 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 133.35 179.5781 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_1.0x1.0mm"
+			(at 140.97 184.15 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 140.97 184.15 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "test point"
+			(at 135.89 184.15 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "bc18aa29-83e3-454f-b80e-c0779687bd52")
+		)
+		(instances
+			(project "Urumi-Nema-17-Node"
+				(path "/8685699d-ff1f-485f-8f40-0c2a36cf5da3"
+					(reference "TP4")
 					(unit 1)
 				)
 			)
@@ -14877,6 +15683,85 @@
 			(project "Urumi-Nema-17-Node"
 				(path "/8685699d-ff1f-485f-8f40-0c2a36cf5da3"
 					(reference "#PWR011")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 26.67 31.75 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "86059c98-1d1f-43db-bd12-8c4c11614796")
+		(property "Reference" "TP1"
+			(at 25.4 38.1 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 29.21 36.3219 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_1.0x1.0mm"
+			(at 21.59 31.75 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 21.59 31.75 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "test point"
+			(at 26.67 31.75 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "9641923f-fb55-44bf-bb01-e5a0fb99f09b")
+		)
+		(instances
+			(project "Urumi-Nema-17-Node"
+				(path "/8685699d-ff1f-485f-8f40-0c2a36cf5da3"
+					(reference "TP1")
 					(unit 1)
 				)
 			)
@@ -15557,6 +16442,164 @@
 			(project "Urumi-Nema-17-Node"
 				(path "/8685699d-ff1f-485f-8f40-0c2a36cf5da3"
 					(reference "J4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 233.68 104.14 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "91e19210-cdbb-427c-966a-6f2f258ab99b")
+		(property "Reference" "TP8"
+			(at 231.14 98.806 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 231.14 99.5681 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_1.0x1.0mm"
+			(at 238.76 104.14 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 238.76 104.14 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "test point"
+			(at 233.68 104.14 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "bcd65bde-f978-4c46-be30-7a46f22d1cda")
+		)
+		(instances
+			(project "Urumi-Nema-17-Node"
+				(path "/8685699d-ff1f-485f-8f40-0c2a36cf5da3"
+					(reference "TP8")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 236.22 104.14 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "98f29488-47c1-4942-a8f6-a4a2c59e334b")
+		(property "Reference" "TP9"
+			(at 234.696 98.806 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 233.68 99.5681 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_1.0x1.0mm"
+			(at 241.3 104.14 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 241.3 104.14 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "test point"
+			(at 236.22 104.14 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "907a4832-6b70-4ba9-93ba-beb60e35a58a")
+		)
+		(instances
+			(project "Urumi-Nema-17-Node"
+				(path "/8685699d-ff1f-485f-8f40-0c2a36cf5da3"
+					(reference "TP9")
 					(unit 1)
 				)
 			)
@@ -16327,6 +17370,85 @@
 		)
 	)
 	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 106.68 113.03 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "a18b6f13-3ef5-43b0-8e74-9e16213b944c")
+		(property "Reference" "TP13"
+			(at 107.95 107.188 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 104.14 108.4581 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_1.0x1.0mm"
+			(at 111.76 113.03 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 111.76 113.03 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "test point"
+			(at 106.68 113.03 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "9059da6a-3e13-456d-a664-57c08821108b")
+		)
+		(instances
+			(project "Urumi-Nema-17-Node"
+				(path "/8685699d-ff1f-485f-8f40-0c2a36cf5da3"
+					(reference "TP13")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "fab:R_1206")
 		(at 52.07 170.18 0)
 		(unit 1)
@@ -16940,6 +18062,85 @@
 			(project "Urumi-Nema-17-Node"
 				(path "/8685699d-ff1f-485f-8f40-0c2a36cf5da3"
 					(reference "R6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 68.58 31.75 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "b31f6277-7cc6-4794-96c3-92e70f24a338")
+		(property "Reference" "TP2"
+			(at 67.31 37.592 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 71.12 36.3219 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_1.0x1.0mm"
+			(at 63.5 31.75 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 63.5 31.75 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "test point"
+			(at 68.58 31.75 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "35add850-5fa2-43d1-a470-85090013ac0f")
+		)
+		(instances
+			(project "Urumi-Nema-17-Node"
+				(path "/8685699d-ff1f-485f-8f40-0c2a36cf5da3"
+					(reference "TP2")
 					(unit 1)
 				)
 			)
@@ -18971,6 +20172,85 @@
 		)
 	)
 	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 238.76 104.14 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "e44f710f-153c-4467-8ce6-c5a3de49de99")
+		(property "Reference" "TP10"
+			(at 237.998 98.806 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 236.22 99.5681 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_1.0x1.0mm"
+			(at 243.84 104.14 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 243.84 104.14 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "test point"
+			(at 238.76 104.14 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "343b61e2-cc71-4864-a9d8-e7ed6895e4dc")
+		)
+		(instances
+			(project "Urumi-Nema-17-Node"
+				(path "/8685699d-ff1f-485f-8f40-0c2a36cf5da3"
+					(reference "TP10")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "fab:C_1206")
 		(at 107.95 58.42 0)
 		(unit 1)
@@ -19046,6 +20326,86 @@
 			(project "Urumi-Nema-17-Node"
 				(path "/8685699d-ff1f-485f-8f40-0c2a36cf5da3"
 					(reference "C11")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 172.72 181.61 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "ed1559f7-ca7a-4bfa-802a-25a307e83ebe")
+		(property "Reference" "TP6"
+			(at 175.26 178.3079 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 170.18 177.0381 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_1.0x1.0mm"
+			(at 177.8 181.61 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 177.8 181.61 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "test point"
+			(at 172.72 181.61 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "5ac20e94-9a50-4bc8-9dc0-3ac1663ffa61")
+		)
+		(instances
+			(project "Urumi-Nema-17-Node"
+				(path "/8685699d-ff1f-485f-8f40-0c2a36cf5da3"
+					(reference "TP6")
 					(unit 1)
 				)
 			)
@@ -19282,6 +20642,85 @@
 			(project "Urumi-Nema-17-Node"
 				(path "/8685699d-ff1f-485f-8f40-0c2a36cf5da3"
 					(reference "#PWR02")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 354.33 189.23 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "f538e93f-10f6-4fa4-aa65-d6bafb9ca1dc")
+		(property "Reference" "TP12"
+			(at 353.822 183.388 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 351.79 184.6581 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_1.0x1.0mm"
+			(at 359.41 189.23 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 359.41 189.23 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "test point"
+			(at 354.33 189.23 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "e52d1b8c-377b-411a-8bd8-d51c27497d36")
+		)
+		(instances
+			(project "Urumi-Nema-17-Node"
+				(path "/8685699d-ff1f-485f-8f40-0c2a36cf5da3"
+					(reference "TP12")
 					(unit 1)
 				)
 			)
