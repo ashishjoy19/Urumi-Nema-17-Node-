@@ -6924,7 +6924,7 @@
 		)
 		(uuid "196f4e07-8431-4434-be89-b3c84d744a5d")
 	)
-	(text "16 Mhz Crystal"
+	(text "24 Mhz Crystal"
 		(exclude_from_sim no)
 		(at 44.704 87.376 0)
 		(effects
@@ -19868,7 +19868,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "16_MHz_Crystal"
+		(property "Value" "24_MHz_Crystal"
 			(at 36.068 125.73 0)
 			(show_name no)
 			(do_not_autoplace no)
